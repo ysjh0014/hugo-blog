@@ -1,6 +1,6 @@
 ---
 title: "Mysql"
-date: 2023-02-01T13:55:35+08:00
+date: 2022-02-01T13:55:35+08:00
 draft: false
 ---
 #### ***char、vachar的区别***

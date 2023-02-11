@@ -74,7 +74,7 @@ weight = 7
 
 [[menu.main]]
 name = "RSS📢"
-url = "/index.xml"
+url = "/index.html"
 weight = 8
 
 [[menu.footer]]
@@ -94,7 +94,3 @@ weight = 3
 name = "Email"
 url = "mailto:3463446481@qq.com"
 weight = 4
-# [[menu.footer]]
-# name = "RSS"
-# url = "/index.xml"
-# weight = 4
