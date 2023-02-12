@@ -30,7 +30,7 @@ enableReadingTime = true
 enableTwikoo = true 
 favicon = "https://photo.16pic.com/00/28/26/16pic_2826640_b.jpg" 
 subtitle = "凡事有交代，件件有着落，事事有回音" 
-twikooEnvId = "https://twikoo.riba2534.cn" 
+twikooEnvId = "http://8.131.78.61:8080/" 
 
 [taxonomies]
 category = "categories"
