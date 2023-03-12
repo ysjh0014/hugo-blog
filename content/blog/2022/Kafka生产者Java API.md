@@ -12,11 +12,57 @@ maven工程，zookeeper集群
 **2.Java API编程**
 
 maven的pom.xml文件
-<dependencies> <dependency> <groupId>org.apache.kafka</groupId> <artifactId>kafka-clients</artifactId> <version>2.0.0</version> </dependency> </dependencies>
+
+```java
+<dependencies>
+    <dependency>
+        <groupId>org.apache.kafka</groupId>
+        <artifactId>kafka-clients</artifactId>
+        <version>2.0.0</version>
+    </dependency>
+</dependencies>
+```
 
 ProducerTest.java
 
-package cn.ysjh; import java.util.Properties; import org.apache.kafka.clients.producer.KafkaProducer; import org.apache.kafka.clients.producer.ProducerRecord; public class ProducerTest { public static void main(String args[]) { //1.配置生产者属性 Properties props = new Properties(); // Kafka服务端的主机名和端口号，可以是多个 props.put("bootstrap.servers", "172.17.0.3:9092"); //配置发送的消息是否等待应答 props.put("acks", "all"); //配置消息发送失败的重试 props.put("retries", 0); // 批量处理数据的大小：16kb props.put("batch.size", 16384); // 设置批量处理数据的延迟，单位：ms props.put("linger.ms", 1); // 设置内存缓冲区的大小 props.put("buffer.memory", 33554432); //数据在发送之前一定要序列化 // key序列化 props.put("key.serializer", "org.apache.kafka.common.serialization.StringSerializer"); // value序列化 props.put("value.serializer", "org.apache.kafka.common.serialization.StringSerializer"); //2.实例化KafkaProducer KafkaProducer<String, String> producer = new KafkaProducer<>(props); for (int i = 0; i < 50; i++) { //3.调用Producer的send方法，进行消息的发送，每条待发送的消息，都必须封装为一个Record对象 producer.send(new ProducerRecord<String, String>("test", Integer.toString(i), Integer.toString(i))); } //4.close释放资源 producer.close(); } }
+```java
+package cn.ysjh;
+
+import java.util.Properties;
+import org.apache.kafka.clients.producer.KafkaProducer;
+import org.apache.kafka.clients.producer.ProducerRecord;
+public class ProducerTest {
+    public static void main(String args[]) {
+        //1.配置生产者属性 
+        Properties props = new Properties();
+        // Kafka服务端的主机名和端口号，可以是多个 
+        props.put("bootstrap.servers", "172.17.0.3:9092");
+        //配置发送的消息是否等待应答 
+        props.put("acks", "all");
+        //配置消息发送失败的重试 
+        props.put("retries", 0);
+        // 批量处理数据的大小：16kb 
+        props.put("batch.size", 16384);
+        // 设置批量处理数据的延迟，单位：ms 
+        props.put("linger.ms", 1);
+        // 设置内存缓冲区的大小 
+        props.put("buffer.memory", 33554432);
+        //数据在发送之前一定要序列化 
+        // key序列化 
+        props.put("key.serializer", "org.apache.kafka.common.serialization.StringSerializer");
+        // value序列化 
+        props.put("value.serializer", "org.apache.kafka.common.serialization.StringSerializer");
+        //2.实例化KafkaProducer 
+        KafkaProducer<String, String> producer = new KafkaProducer<>(props);
+        for (int i = 0; i < 50; i++) {
+            //3.调用Producer的send方法，进行消息的发送，每条待发送的消息，都必须封装为一个Record对象 
+            producer.send(new ProducerRecord<String, String>("test", Integer.toString(i), Integer.toString(i)));
+        }
+        //4.close释放资源 
+        producer.close();
+    }
+}
+```
 
 **3.在Kafka集群中开启一个消费者**
 
