@@ -161,4 +161,4 @@ public class ProducerTest {
 
 最后在Kafka集群中开启一个消费者，运行程序即可，效果如图：
 
-<img src='https://img-blog.csdn.net/20180923150759601?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3lzXzIzMDAxNA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70'>
+<img referrerpolicy="no-referrer" src='https://img-blog.csdn.net/20180923150759601?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3lzXzIzMDAxNA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70'>

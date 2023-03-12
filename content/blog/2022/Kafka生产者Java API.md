@@ -72,6 +72,6 @@ bin/kafka-console-consumer.sh --bootstrap-server cdh0:9092 --topic test
 
 修改 server.properties中的
 
-![](https://img-blog.csdn.net/20180922230425471?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3lzXzIzMDAxNA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+<img referrerpolicy="no-referrer" src="https://img-blog.csdn.net/20180922230425471?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3lzXzIzMDAxNA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70">
 
 这里要改为ip地址，改过之后就能成功写入数据了
