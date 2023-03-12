@@ -12,7 +12,7 @@ Kafka下载地址： [http://mirrors.tuna.tsinghua.edu.cn/apache/kafka/2.0.0/kaf
 2.在Kafka目录下创建log目录，用来存放kafka的日志文件
 
 3.修改配置文件
-cd config vi server.properties
+`cd config vi server.properties`
 
 修改如下：
 
@@ -34,11 +34,11 @@ scp -r kafka的目录地址 cdh1:要分发到其他机器节点的目录位置
 6.启动Kafka
 
 分别在集群机器上启动Kafka
-bin/kafka-server-start.sh config/server.properties
+`bin/kafka-server-start.sh config/server.properties`
 
 7.关闭Kafaka
 
-bin/kafka-server-stop.sh stop
+`bin/kafka-server-stop.sh stop`
 
 拓展：
 
