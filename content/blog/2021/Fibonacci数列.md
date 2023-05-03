@@ -44,4 +44,34 @@ for each i ≥ 2: F[i] = F[i-1] + F[i-2]
 给定一个数将这个数每步加一或者减一使其变为一个斐波那契数，求最小步数，思路很简单，就是把给定的这个数在斐波那契数列中比较，看它在那两个数中间，然后看这两个数哪一个与它的差值最小，就是所需的最小步数
 
 **代码：**
-import java.io.BufferedReader; import java.io.IOException; import java.io.InputStreamReader; public class Main { public static void main(String []args) throws IOException { BufferedReader br = new BufferedReader(new InputStreamReader(System.in)); String input = br.readLine(); while (input != null) { int a = Integer.valueOf(input); int b = 1, c = 1, d; while (true) { d = b + c; b = c; c=d; if (d > a) { break; } } if (d - a < a - b) { System.out.println(d-a); return; } else { System.out.println(a-b); return; } } } }
+
+```java
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+public class Main {
+    public static void main(String []args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        String input = br.readLine();
+        while (input != null) {
+            int a = Integer.valueOf(input);
+            int b = 1, c = 1, d;
+            while (true) {
+                d = b + c;
+                b = c;
+                c=d;
+                if (d > a) {
+                    break;
+                }
+            }
+            if (d - a < a - b) {
+                System.out.println(d-a);
+                return;
+            } else {
+                System.out.println(a-b);
+                return;
+            }
+        }
+    }
+}
+```
