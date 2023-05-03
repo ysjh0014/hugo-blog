@@ -2,7 +2,7 @@
 title: "Kafka中Broker保存消息的方式"
 date: 2022-09-19 18:34:01
 draft: false
-featured_image: "https://hugo-ys.oss-cn-hangzhou.aliyuncs.com/static/img/kafka.png"
+featured_image: "https://hugo-ys.oss-cn-hangzhou.aliyuncs.com/static/img/kafka3.png"
 tags:
 - kafka
 categories:

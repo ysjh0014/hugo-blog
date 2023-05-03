@@ -2,7 +2,7 @@
 title: "Kafka中自定义分区Java API"
 date: 2022-09-23 08:49:16
 draft: false
-featured_image: "https://hugo-ys.oss-cn-hangzhou.aliyuncs.com/static/img/kafka.png"
+featured_image: "https://hugo-ys.oss-cn-hangzhou.aliyuncs.com/static/img/java.png"
 tags:
 - kafka
 categories:

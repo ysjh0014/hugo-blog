@@ -2,7 +2,7 @@
 title: "Kafka分布式集群部署"
 date: 2022-09-19 13:21:21
 draft: false
-featured_image: "https://hugo-ys.oss-cn-hangzhou.aliyuncs.com/static/img/kafka.png"
+featured_image: "https://hugo-ys.oss-cn-hangzhou.aliyuncs.com/static/img/kafka3.png"
 tags:
 - kafka
 categories:

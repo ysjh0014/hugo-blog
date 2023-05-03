@@ -2,7 +2,7 @@
 title: "Kafka消费者Java API"
 date: 2022-09-23 09:02:16
 draft: false
-featured_image: "https://hugo-ys.oss-cn-hangzhou.aliyuncs.com/static/img/kafka.png"
+featured_image: "https://hugo-ys.oss-cn-hangzhou.aliyuncs.com/static/img/java.png"
 tags:
 - kafka
 categories:
