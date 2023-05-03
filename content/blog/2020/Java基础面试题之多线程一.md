@@ -2,6 +2,7 @@
 title: "Java基础面试题之多线程一"
 date: 2020-03-02 14:41:15
 draft: false
+featured_image: "https://hugo-ys.oss-cn-hangzhou.aliyuncs.com/static/img/java.png"
 ---
 **1.什么是线程？**
 

@@ -2,6 +2,7 @@
 title: "Java基础面试题—集合框架篇二"
 date: 2020-03-04 16:41:23
 draft: false
+featured_image: "https://hugo-ys.oss-cn-hangzhou.aliyuncs.com/static/img/java.png"
 ---
 **11.ArrayList和LinkedList的比较**
 

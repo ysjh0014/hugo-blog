@@ -2,6 +2,7 @@
 title: "Java面试题之网络"
 date: 2020-03-25 20:58:35
 draft: false
+featured_image: "https://hugo-ys.oss-cn-hangzhou.aliyuncs.com/static/img/java.png"
 ---
 **1.OSI的七层协议**
 

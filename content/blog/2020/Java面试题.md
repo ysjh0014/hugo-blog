@@ -2,6 +2,7 @@
 title: "Java面试题"
 date: 2020-04-06 10:06:28
 draft: false
+featured_image: "https://hugo-ys.oss-cn-hangzhou.aliyuncs.com/static/img/java.png"
 ---
 1.什么是事务，如何加入事务
 

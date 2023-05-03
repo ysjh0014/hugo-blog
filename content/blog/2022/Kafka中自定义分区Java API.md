@@ -2,6 +2,7 @@
 title: "Kafka中自定义分区Java API"
 date: 2022-09-23 08:49:16
 draft: false
+featured_image: "https://hugo-ys.oss-cn-hangzhou.aliyuncs.com/static/img/kafka.png"
 ---
 自定义分区API只是在Producer API的基础上加入了一些内容
 

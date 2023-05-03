@@ -2,6 +2,7 @@
 title: "Fibonacci数列"
 date: 2021-01-01 17:59:09
 draft: false
+featured_image: "https://hugo-ys.oss-cn-hangzhou.aliyuncs.com/static/img/leetcode.jpg"
 tags:
 - leetcode
 - 算法题

@@ -2,6 +2,7 @@
 title: "Kafka分布式集群部署"
 date: 2022-09-19 13:21:21
 draft: false
+featured_image: "https://hugo-ys.oss-cn-hangzhou.aliyuncs.com/static/img/kafka.png"
 ---
 Kafka下载地址： [http://mirrors.tuna.tsinghua.edu.cn/apache/kafka/2.0.0/kafka_2.12-2.0.0.tgz](http://mirrors.tuna.tsinghua.edu.cn/apache/kafka/2.0.0/kafka_2.12-2.0.0.tgz)
 

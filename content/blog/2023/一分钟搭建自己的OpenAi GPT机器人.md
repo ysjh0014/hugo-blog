@@ -1,6 +1,6 @@
 ---
 title: "一分钟搭建自己的OpenAI GPT微信机器人"
-date: 2023-02-12 15:24:33
+date: 2023-02-18 10:24:33
 draft: false
 featured_image: "https://image-1252109614.cos.ap-beijing.myqcloud.com/2023/03/09/64096b5ba7bf6.jpg"
 tags:
@@ -135,8 +135,7 @@ nohup ./openai-on-wechat &
 
 输入 `触发前缀+你的问题` 即可触发机器人回复，和好友聊天过程中，自己输入关键词也同样可以触发。
 
-# 联系作者
+# 联系我
 
-- 本项目地址为：https://github.com/riba2534/openai-on-wechat ，欢迎大家 Star，提交 PR
-- 有问题可以在本项目下提 `Issues` 或者发邮件到 `3463446481@qq.com`
+- 有问题可以发邮件到 `3463446481@qq.com`
 

@@ -2,6 +2,7 @@
 title: "Mysql数据库中的存储引擎"
 date: 2020-03-25 15:02:41
 draft: false
+featured_image: "https://hugo-ys.oss-cn-hangzhou.aliyuncs.com/static/img/java.png"
 ---
 **1.什么是存储引擎**
 

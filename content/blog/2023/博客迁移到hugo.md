@@ -1,7 +1,8 @@
 ---
 title: "博客迁移到hugo"
-date: 2023-02-12 15:24:33
+date: 2023-01-12 15:24:33
 draft: false
+featured_image: "https://hugo-ys.oss-cn-hangzhou.aliyuncs.com/static/img/hugo.jpg"
 ---
 ##### 为什么迁移，又为什么是Hugo？
 2020年之前我的博客主阵地还是CSDN，但是相信大家都有程序员苦CSDN久矣的感受。全是复制粘贴雷同文章非常多，只能解决一些很常见的问题，最最重要的是它还有广告

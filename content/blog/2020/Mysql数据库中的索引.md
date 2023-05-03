@@ -2,6 +2,7 @@
 title: "Mysql数据库中的索引"
 date: 2020-03-24 15:34:24
 draft: false
+featured_image: "https://hugo-ys.oss-cn-hangzhou.aliyuncs.com/static/img/java.png"
 ---
 **1.什么是索引**
 

@@ -2,6 +2,7 @@
 title: "HTTP中GET和POST的区别"
 date: 2020-03-25 20:40:21
 draft: false
+featured_image: "https://hugo-ys.oss-cn-hangzhou.aliyuncs.com/static/img/http.jpg"
 ---
 当你使用Java进行Web开发时，肯定写过很多个GET和POST请求
 

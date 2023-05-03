@@ -2,6 +2,7 @@
 title: "Java基础面试题—语法篇二"
 date: 2020-02-26 19:43:38
 draft: false
+featured_image: "https://hugo-ys.oss-cn-hangzhou.aliyuncs.com/static/img/java.png"
 ---
 **1.一个".java"源文件中是否可以有多个类(不是内部类)？有什么限制？**
 

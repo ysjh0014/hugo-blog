@@ -2,6 +2,7 @@
 title: "Kafka生产过程"
 date: 2022-09-19 18:25:38
 draft: false
+featured_image: "https://hugo-ys.oss-cn-hangzhou.aliyuncs.com/static/img/kafka.png"
 ---
 **1.写入方式**
 

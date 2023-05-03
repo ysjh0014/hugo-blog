@@ -2,6 +2,7 @@
 title: "Kafka常用命令操作"
 date: 2022-09-19 14:12:48
 draft: false
+featured_image: "https://hugo-ys.oss-cn-hangzhou.aliyuncs.com/static/img/kafka.png"
 ---
 **1.创建topic(主题)**
 `bin/kafka-topics.sh --zookeeper cdh0:2181 --create --replication-factor 3 --partitions 3 --topic first`
