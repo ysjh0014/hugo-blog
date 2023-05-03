@@ -1,16 +1,13 @@
 ---
 title: "腾讯云函数1分钟搭建OpenAI国内代理"
-date: 2023-03-01 T13:10:26+08:00
+date: 2023-03-01 10:01:00
 draft: false
 featured_image: "https://image-1252109614.cos.ap-beijing.myqcloud.com/2023/03/09/64096b5ba7bf6.jpg"
-description: ""
 tags:
 - OpenAI
 - chatGPT
 categories:
 - AI
-comment : true
-
 ---
 
 # 腾讯云函数1分钟搭建 OpenAI 国内代理
