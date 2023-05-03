@@ -3,6 +3,10 @@ title: "Java面试题之SSM框架一"
 date: 2020-03-03 16:51:11
 draft: false
 featured_image: "https://hugo-ys.oss-cn-hangzhou.aliyuncs.com/static/img/java.png"
+tags:
+- Java
+categories: 
+- Java
 ---
 **1.不同版本的Spring有哪些主要功能？**
 版本 特征 Spring2.5 发布于2007年，这是第一个支持注解的版本 Spring3.0 发布于2009年，完全利用了Java5中的改进，并为JEE6提供了改进 Spring4.0 发布于2013年，这是第一个完全支持JAVA8的版本

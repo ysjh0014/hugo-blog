@@ -3,6 +3,10 @@ title: "Java中创建线程的四种方法"
 date: 2020-03-01 16:50:30
 draft: false
 featured_image: "https://hugo-ys.oss-cn-hangzhou.aliyuncs.com/static/img/java.png"
+tags:
+- Java
+categories: 
+- Java
 ---
 **1.继承Thread类创建线程类**
 

@@ -3,6 +3,10 @@ title: "Java中的HashMap"
 date: 2020-03-22 16:09:22
 draft: false
 featured_image: "https://hugo-ys.oss-cn-hangzhou.aliyuncs.com/static/img/java.png"
+tags:
+- Java
+categories: 
+- Java
 ---
 HashMap是一个用来存储Key-Value键值对的集合，每一个键值对叫做Entry，这些键值对分散存储在一个数组中，每个数组空间都存储一个链表结构，每一个链表节点都是一个Node对象，里面包含了key、value、next、hash
 

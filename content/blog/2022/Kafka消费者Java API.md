@@ -3,6 +3,10 @@ title: "Kafka消费者Java API"
 date: 2022-09-23 09:02:16
 draft: false
 featured_image: "https://hugo-ys.oss-cn-hangzhou.aliyuncs.com/static/img/kafka.png"
+tags:
+- kafka
+categories:
+- kafka
 ---
 废话不多说，直接上代码
 

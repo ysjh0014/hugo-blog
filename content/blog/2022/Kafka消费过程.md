@@ -3,6 +3,10 @@ title: "Kafka消费过程"
 date: 2022-09-19 18:44:46
 draft: false
 featured_image: "https://hugo-ys.oss-cn-hangzhou.aliyuncs.com/static/img/kafka.png"
+tags:
+- kafka
+categories:
+- kafka
 ---
 **1.消费模型**
 

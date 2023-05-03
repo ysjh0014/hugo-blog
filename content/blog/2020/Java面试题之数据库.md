@@ -3,6 +3,10 @@ title: "Java面试题之数据库"
 date: 2020-03-24 16:56:25
 draft: false
 featured_image: "https://hugo-ys.oss-cn-hangzhou.aliyuncs.com/static/img/java.png"
+tags:
+- Java
+categories: 
+- Java
 ---
 **1.索引**
 

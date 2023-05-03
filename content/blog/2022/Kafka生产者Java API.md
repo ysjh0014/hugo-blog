@@ -3,6 +3,10 @@ title: "Kafka生产者Java API"
 date: 2022-09-22 23:05:43
 draft: false
 featured_image: "https://hugo-ys.oss-cn-hangzhou.aliyuncs.com/static/img/kafka.png"
+tags:
+- kafka
+categories:
+- kafka
 ---
 准备工作：
 

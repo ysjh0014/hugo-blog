@@ -3,6 +3,10 @@ title: "Kafka架构介绍"
 date: 2022-09-18 15:47:00
 draft: false
 featured_image: "https://hugo-ys.oss-cn-hangzhou.aliyuncs.com/static/img/kafka.png"
+tags:
+- kafka
+categories:
+- kafka
 ---
 ![](https://img-blog.csdn.net/20180919100956234?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3lzXzIzMDAxNA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
 

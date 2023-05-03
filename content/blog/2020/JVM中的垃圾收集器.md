@@ -3,6 +3,10 @@ title: "JVM中的垃圾收集器"
 date: 2020-03-23 10:15:24
 draft: false
 featured_image: "https://hugo-ys.oss-cn-hangzhou.aliyuncs.com/static/img/java.png"
+tags:
+- Java
+categories: 
+- Java
 ---
 **1.Serial收集器**
 

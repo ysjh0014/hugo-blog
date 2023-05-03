@@ -3,6 +3,10 @@ title: "http中的状态码"
 date: 2020-03-25 16:06:34
 draft: false
 featured_image: "https://hugo-ys.oss-cn-hangzhou.aliyuncs.com/static/img/http.jpg"
+tags:
+- http
+categories: 
+- http
 ---
 100：继续，客户端应继续其请求
 

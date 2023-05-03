@@ -3,6 +3,10 @@ title: "Java面试题之多线程"
 date: 2020-03-18 20:23:49
 draft: false
 featured_image: "https://hugo-ys.oss-cn-hangzhou.aliyuncs.com/static/img/java.png"
+tags:
+- Java
+categories: 
+- Java
 ---
 **1.进程间的通信方式**
 

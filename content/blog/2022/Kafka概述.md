@@ -3,6 +3,10 @@ title: "Kafka概述"
 date: 2022-09-18 15:26:52
 draft: false
 featured_image: "https://hugo-ys.oss-cn-hangzhou.aliyuncs.com/static/img/kafka.png"
+tags:
+- kafka
+categories:
+- kafka
 ---
 1)Apache Kafka是一个开源消息系统，由Scala写成，是由Apache软件基金会开发的一个开源消息系统项目
 

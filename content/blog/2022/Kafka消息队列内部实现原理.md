@@ -3,6 +3,10 @@ title: "Kafka消息队列内部实现原理"
 date: 2022-09-18 15:39:53
 draft: false
 featured_image: "https://hugo-ys.oss-cn-hangzhou.aliyuncs.com/static/img/kafka.png"
+tags:
+- kafka
+categories:
+- kafka
 ---
 **1.实现原理**
 

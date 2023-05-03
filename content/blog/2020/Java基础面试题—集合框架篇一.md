@@ -3,6 +3,10 @@ title: "Java基础面试题—集合框架篇一"
 date: 2020-03-03 21:06:29
 draft: false
 featured_image: "https://hugo-ys.oss-cn-hangzhou.aliyuncs.com/static/img/java.png"
+tags:
+- Java
+categories: 
+- Java
 ---
 **1.Java集合框架是什么？说出一些集合框架的优点**
 
