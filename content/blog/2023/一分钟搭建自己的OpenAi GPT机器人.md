@@ -1,6 +1,6 @@
 ---
 title: "一分钟搭建自己的OpenAI GPT微信机器人"
-date: 2023-02-18 10:24:33
+date: 2023-03-01 10:24:33
 draft: false
 featured_image: "https://image-1252109614.cos.ap-beijing.myqcloud.com/2023/03/09/64096b5ba7bf6.jpg"
 tags:
