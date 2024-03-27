@@ -10,7 +10,6 @@ categories:
 ---
 #### 判断字段是否包含字母，不区分大小写
 `select * from 表名 where 字段名 REGEXP '[A-Z]';`
-
 #### 判断字段是否包含字母，区分大小写
 //只查包含大写字母的字段
 `select * from 表名 where 字段名 REGEXP BINARY '[A-Z]';`
