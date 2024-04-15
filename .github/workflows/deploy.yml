@@ -1,9 +1,9 @@
 # deploy.yml
-name: deploy blog to aliyun
+name: deploy blog to tengxunyun
 on:
   push:
     branches:
-      - master
+      - main
 jobs:
   build:
     runs-on: ubuntu-latest
