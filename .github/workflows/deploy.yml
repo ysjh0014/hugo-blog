@@ -20,7 +20,7 @@ jobs:
         extended: true
         
     - name: Build Hugo site
-      run: hugo --minify
+      run: hugo
       
     - name: Install SSH key
       uses: webfactory/ssh-agent@v0.5.4
